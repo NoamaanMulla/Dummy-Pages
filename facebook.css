@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(240,242,245);
+}
+#recent{display: inline-block; margin: 80px 0px 0px 190px;}
+#recent #fb_icon{
+    width: 200px;
+    height: 70px;
+    position: relative;
+    right: 20px;
+}
+#recent p{font-family: Helvetica, Arial, sans-serif;}
+#recent #p1{font-size: 28px;}
+#recent #p2{
+    color: rgb(96,103,112);
+    font-size: 15px;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+}
+#recent_login{
+    display: inline-block;
+    border: 1px solid rgb(221,223,226);
+    border-radius: 10px;
+    background-color: rgb(245,246,247);
+    overflow: hidden;
+}
+#recent_login:hover{box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);}
+#recent_login img{
+    display: block;
+    height: 40px;
+    width: 44px;
+    margin: 60px auto;
+}
+#add_acc p{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    color: rgb(24,134,244);
+    font-size: 18px;
+    padding: 13px 30px;
+}
+#login{
+    display: inline-block;
+    margin-left: 350px;
+    position: relative;
+    top: 110px;
+}
+form, input{background-color: rgb(255, 255, 255);}
+form{
+    padding: 5px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+.input_box{
+    display: block;
+    border: 1px solid rgb(221,223,226);
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 15px;
+    width: 350px;
+    margin: 15px;
+}
+#log_in_button{
+    color: rgb(255, 255, 255);
+    background: rgb(24,119,242);
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 13px 147px;
+    margin: 0px 15px;
+}
+form a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+}
+#forget_password{
+    font-size: 15px;
+    color: rgb(24,119,242);
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+}
+#line{
+    border-top: 1px solid rgb(218,221,225);
+    width: 350px;
+    margin: 0px auto;
+}
+#new_account{
+    background-color: rgb(66,183,42);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 8px;
+    width: 200px;
+    padding: 15px 10px;
+    margin: 25px auto 0px auto;
+}
+#celeb{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+#celeb a{
+    text-decoration: none;
+    color: rgba(0, 0, 0);
+    font-weight: 600;
+}
+#celeb a:hover{border-bottom: 1px solid rgba(0, 0, 0);}
